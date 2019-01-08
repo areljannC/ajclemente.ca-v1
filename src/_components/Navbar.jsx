@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar = () => (
-  <nav className="navbar">
+  <nav className="navbar is-fixed-top">
     <div className="navbar-brand">
       <a className="navbar-item">
         {/* add a logo here */}
