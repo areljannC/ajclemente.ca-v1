@@ -2,30 +2,32 @@ import React from 'react';
 
 const Navbar = () => (
   <nav className="navbar is-fixed-top">
-    <div className="navbar-brand">
-      <a className="navbar-item">
-        {/* add a logo here */}
-      </a>
-      <a className="navbar-burger burger" data-target="navbar-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-    </div>
-    <div className="navbar-menu is-shadowless" id="navbar-menu">
-      <div className="navbar-end">
+    <div className="container">
+      <div className="navbar-brand">
         <a className="navbar-item">
-          Home
+          {/* add a logo here */}
         </a>
-        <a className="navbar-item">
-          Projects
+        <a className="navbar-burger burger" data-target="navbar-menu">
+          <span></span>
+          <span></span>
+          <span></span>
         </a>
-        <a className="navbar-item">
-          About Me
-        </a>
-        <a className="navbar-item">
-          Contact
-        </a>
+      </div>
+      <div className="navbar-menu is-shadowless" id="navbar-menu">
+        <div className="navbar-end">
+          <a className="navbar-item">
+            Home
+          </a>
+          <a className="navbar-item">
+            Projects
+          </a>
+          <a className="navbar-item">
+            About Me
+          </a>
+          <a className="navbar-item">
+            Contact
+          </a>
+        </div>
       </div>
     </div>
   </nav>
