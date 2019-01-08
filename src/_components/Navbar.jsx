@@ -12,23 +12,37 @@ const Navbar = () => (
         <span></span>
       </a>
     </div>
-    <div className="navbar-menu" id="navbar-menu">
+    <div className="navbar-menu is-shadowless" id="navbar-menu">
       <div className="navbar-end">
-        <div className="navbar-item">
-          {/*  */}
-        </div>
-        <div className="navbar-item">
-          {/*  */}
-        </div>
-        <div className="navbar-item">
-          {/*  */}
-        </div>
-        <div className="navbar-item">
-          {/*  */}
-        </div>
+        <a className="navbar-item">
+          Home
+        </a>
+        <a className="navbar-item">
+          Projects
+        </a>
+        <a className="navbar-item">
+          About Me
+        </a>
+        <a className="navbar-item">
+          Contact
+        </a>
       </div>
     </div>
   </nav>
 );
+
+document.addEventListener('DOMContentLoaded', () => {
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
 
 export default Navbar;
