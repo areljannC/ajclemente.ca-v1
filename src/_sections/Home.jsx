@@ -1,6 +1,8 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 
+import PoseIcon from '../_pose-components/PoseIcon';
+
 const Home = () => (
   <Element name="home" id="c-section-home">
     <div className="hero is-fullheight">
@@ -9,6 +11,19 @@ const Home = () => (
           <div className="content">
             <h1>Hi, I am AJ.</h1>
             <p>I'm a front-end web developer with an eye for simplicity and functionality.</p>
+          </div>
+        </div>
+      </div>
+      <div className="hero-footer">
+        <div className="container">
+          <div className="level is-mobile">
+            <div className="level-item">
+              <PoseIcon
+                position="down"
+                icon="arrow-down"
+                size="4"
+              />
+            </div>
           </div>
         </div>
       </div>
