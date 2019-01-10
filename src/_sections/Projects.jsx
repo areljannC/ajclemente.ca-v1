@@ -44,22 +44,6 @@ const projects = [
     linkInfo: "#",
     linkLive: "#"
   },
-  {
-    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
-    title: "Placeholder",
-    description: "Just a bunch of random text for the description",
-    tags: ["HTML", "CSS", "JavaScript"],
-    linkInfo: "#",
-    linkLive: "#"
-  },
-  {
-    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
-    title: "Placeholder",
-    description: "Just a bunch of random text for the description",
-    tags: ["HTML", "CSS", "JavaScript"],
-    linkInfo: "#",
-    linkLive: "#"
-  },
 ];
 
 const Projects = () => (
