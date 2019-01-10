@@ -5,7 +5,7 @@ const projects = [];
 
 const Projects = () => (
   <Element name="projects" id="c-section-projects">
-    <div className="section">
+    <div className="section" data-aos="zoom-in">
       <div className="container">
         <div className="content has-text-centered">
           <h1>Projects</h1>
