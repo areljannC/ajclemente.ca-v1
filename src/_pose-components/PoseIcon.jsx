@@ -39,7 +39,7 @@ export default class PoseArrowDown extends Component {
   render() {
     return(
       <Icon pose={this.state.position} >
-        <span className={`icon ${this.props.size} c-text-red`}>
+        <span className={`icon ${this.props.size}`}>
           <i className={`fas fa-${this.props.icon}`}></i>
         </span>
       </Icon>
