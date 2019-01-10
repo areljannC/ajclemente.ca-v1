@@ -23,6 +23,7 @@ const PoseCard = ({
           </figure>
         </div>
         <div className="c-card-grid-panel-right">
+          <div className="card-content">
           <div className="content has-text-centered">
             <h1>{title}</h1>
             <p>{description}</p>
@@ -33,7 +34,7 @@ const PoseCard = ({
                 ))
               }
             </div>
-            <div className="level is-mobile">
+            <div className="level">
               <div className="level-item">
                 <a>More Info</a>
               </div>
@@ -42,6 +43,8 @@ const PoseCard = ({
               </div>
             </div>
           </div>
+          </div>
+
         </div>
       </div>
     </div>
