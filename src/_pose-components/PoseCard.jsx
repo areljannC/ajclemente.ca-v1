@@ -10,33 +10,35 @@ const Card = posed.div({
 });
 
 const PoseCard = ({
-  thumbnail, title, description, tags, linkInfo, linkLive
+  scrollAnimation, thumbnail, title, description, tags, linkInfo, linkLive
 }) => (
   <Card>
-    <div className="card">
+    <div className="card" 
+      data-aos={scrollAnimation}
+    >
       <div className="c-card-grid">
-        <div className="c-card-panel-left">
+        <div className="c-card-grid-panel-left">
           <figure className="image">
             <img src={thumbnail} />
           </figure>
         </div>
-        <div className="c-card-panel-right">
+        <div className="c-card-grid-panel-right">
           <div className="content has-text-centered">
-            <h1 className="is-size-3-desktop is-size-4-tablet is-size-4-mobile">{title}</h1>
-            <p className="is-size-5-desktop is-size-6-tablet is-size-6-mobile">{description}</p>
+            <h1>{title}</h1>
+            <p>{description}</p>
             <div className="c-tags">
               {
                 tags.map((tag) => (
-                  <span className="tag is-size-6-desktop is-size-7-tablet is-size-7-mobile">{tag}</span>
+                  <span className="tag">{tag}</span>
                 ))
               }
             </div>
             <div className="level is-mobile">
               <div className="level-item">
-                <a className="is-size-5-desktop is-size-6-tablet is-size-6-mobile">More Info</a>
+                <a>More Info</a>
               </div>
               <div className="level-item">
-                <a className="is-size-5-desktop is-size-6-tablet is-size-6-mobile">View Live</a>
+                <a>View Live</a>
               </div>
             </div>
           </div>
