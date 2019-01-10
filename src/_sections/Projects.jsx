@@ -51,7 +51,7 @@ const Projects = () => (
     <div className="section">
       <div className="container">
         <div className="content has-text-centered">
-          <h1 data-aos="zoom-in">Projects</h1>
+          <h1 data-aos="zoom-in" data-aos-offset="-10">Projects</h1>
         </div>
         <div className="columns is-centered is-multiline">
           {
