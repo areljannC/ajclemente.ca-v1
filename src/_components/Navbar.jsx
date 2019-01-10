@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Navbar = () => (
-  <nav className="navbar is-fixed-top"
-    data-aos="fade-left"
-    data-aos-duration="1000"
-  >
-    <div className="container">
+  <nav className="navbar is-fixed-top">
+    <div className="container"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
       <div className="navbar-brand">
         <a className="navbar-item">
           {/* add a logo here */}
