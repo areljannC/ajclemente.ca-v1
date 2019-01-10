@@ -5,6 +5,7 @@ import Navbar   from './_components/Navbar';
 import Home     from './_sections/Home';
 import Projects from './_sections/Projects';
 
+import './_stylesheets/custom.css';
 class App extends Component {
   render() {
     return (
