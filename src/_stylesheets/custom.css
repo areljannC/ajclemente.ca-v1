@@ -2,7 +2,7 @@
   margin-bottom: 1em;
 }
 
-.c-card-grid {
+#c-section-projects .c-card-grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% auto;
@@ -10,33 +10,33 @@
   grid-auto-rows: auto;
 }
 
-.c-card-grid .c-card-grid-panel-left {
+#c-section-projects .c-card-grid .c-card-grid-panel-left {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 2;
 }
 
-.c-card-grid .c-card-grid-panel-left .image {
+#c-section-projects .c-card-grid .c-card-grid-panel-left .image {
   width: 100%;
   height: 100%;
 }
 
-.c-card-grid .c-card-grid-panel-left .image img {
+#c-section-projects .c-card-grid .c-card-grid-panel-left .image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.c-card-grid .c-card-grid-panel-right {
+#c-section-projects .c-card-grid .c-card-grid-panel-right {
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
   overflow: auto;
-  word-break: break-all;
+  word-break: break-word;
 }
 
-.c-card-grid .c-card-grid-panel-right .content {
+#c-section-projects .c-card-grid .c-card-grid-panel-right .content {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -51,19 +51,38 @@
           justify-content: space-between;
 }
 
-.c-card-grid .c-card-grid-panel-right .content h1 {
-  margin-top: 0.5em;
-}
-
-.c-card-grid .c-card-grid-panel-right .level {
+#c-section-projects .c-card-grid .c-card-grid-panel-right .c-tags {
   margin-bottom: 1em;
 }
 
-.c-card-grid .c-card-grid-panel-right .c-tags {
-  margin-bottom: 1em;
-}
-
-.c-card-grid .c-card-grid-panel-right .c-tags .tag {
+#c-section-projects .c-card-grid .c-card-grid-panel-right .c-tags .tag {
   margin: 0 0.5em;
+}
+
+#c-section-about-me .image {
+  margin: 0 auto 1em auto;
+}
+
+#c-section-about-me .level {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#c-section-about-me .c-level-icon {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 2em;
+}
+
+#c-section-about-me .c-level-info {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 12em;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 /*# sourceMappingURL=custom.css.map */
