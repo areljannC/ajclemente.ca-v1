@@ -5,38 +5,86 @@ import PoseCard from './../_pose-components/PoseCard';
 
 const projects = [
   {
-    thumbnail: "#",
+    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
     title: "Placeholder",
     description: "Just a bunch of random text for the description",
     tags: ["HTML", "CSS", "JavaScript"],
     linkInfo: "#",
     linkLive: "#"
-  }
+  },
+  {
+    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
+    title: "Placeholder",
+    description: "Just a bunch of random text for the description",
+    tags: ["HTML", "CSS", "JavaScript"],
+    linkInfo: "#",
+    linkLive: "#"
+  },
+  {
+    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
+    title: "Placeholder",
+    description: "Just a bunch of random text for the description",
+    tags: ["HTML", "CSS", "JavaScript"],
+    linkInfo: "#",
+    linkLive: "#"
+  },
+  {
+    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
+    title: "Placeholder",
+    description: "Just a bunch of random text for the description",
+    tags: ["HTML", "CSS", "JavaScript"],
+    linkInfo: "#",
+    linkLive: "#"
+  },
+  {
+    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
+    title: "Placeholder",
+    description: "Just a bunch of random text for the description",
+    tags: ["HTML", "CSS", "JavaScript"],
+    linkInfo: "#",
+    linkLive: "#"
+  },
+  {
+    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
+    title: "Placeholder",
+    description: "Just a bunch of random text for the description",
+    tags: ["HTML", "CSS", "JavaScript"],
+    linkInfo: "#",
+    linkLive: "#"
+  },
+  {
+    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
+    title: "Placeholder",
+    description: "Just a bunch of random text for the description",
+    tags: ["HTML", "CSS", "JavaScript"],
+    linkInfo: "#",
+    linkLive: "#"
+  },
 ];
 
 const Projects = () => (
   <Element name="projects" id="c-section-projects">
-    <div className="section" data-aos="zoom-in">
+    <div className="section">
       <div className="container">
         <div className="content has-text-centered">
-          <h1>Projects</h1>
+          <h1 data-aos="zoom-in">Projects</h1>
         </div>
-        <div className="columns is-centered">
-          <div className="column">
-            {
-              projects.map((project) => (
-                <div>
-                  <p>Project name: {project.title}</p>
-                  <p>Tags: {
-                      project.tags.map((tag) => (
-                        <span>{tag}</span>
-                        ))
-                      }
-                  </p>
-                </div>
-              ))
-            }
-          </div>
+        <div className="columns is-centered is-multiline">
+          {
+            projects.map((project) => (
+              <div className="column is-half c-column">
+                <PoseCard 
+                  scrollAnimation="fade-up"
+                  thumbnail={project.thumbnail}
+                  title={project.title}
+                  description={project.description}
+                  tags={project.tags}
+                  linkInfo={project.linkInfo}
+                  linkLive={project.linkLive}
+                />
+              </div>
+            ))
+          }
         </div>
       </div>
     </div>
