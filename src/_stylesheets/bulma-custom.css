@@ -2,6 +2,10 @@
   background-color: #1D3557;
 }
 
+.navbar-burger:hover {
+  color: #E63946;
+}
+
 .navbar-item:hover {
   background-color: #F1FAEE !important;
   color: #1D3557 !important;

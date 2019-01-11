@@ -8,6 +8,10 @@ $color-light-blue: #A8DADC;
   background-color: $color-black;
 }
 
+.navbar-burger:hover {
+  color: $color-red;
+}
+
 .navbar-item:hover {
   background-color: $color-white !important;
   color: $color-black !important;
