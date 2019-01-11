@@ -9,7 +9,7 @@ const AboutMe = () => (
           <h1 data-aos="zoom-in" data-aos-offset="-10">About Me</h1>
         </div>
         <div className="columns is-centered">
-          <div className="column is-two-fifths">
+          <div className="column is-two-fifths" data-aos="fade-right">
             <div className="content">
               <figure class="image is-128x128">
                 <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
@@ -56,7 +56,7 @@ const AboutMe = () => (
               </div>
             </div>
           </div>
-          <div className="column">
+          <div className="column" data-aos="fade-left">
             <p>Hi there! Nice to meet you!</p>
             <p>I'm <strong>AJ</strong> and and I'm a web developer based in the <strong>Greater
                     Toronto Area</strong> (GTA).</p>
@@ -67,6 +67,81 @@ const AboutMe = () => (
                 </strong> and <strong>media content creator</strong>.</p>
             <p>I enjoy planning and creating stuff from the ground-up and tinkering with how it
                 works and how it looks.</p>
+          </div>
+        </div>
+        <div className="columns is-centered">
+          <div className="column is-half">
+            <div className="box">
+              <div className="content">
+                <h1>Web Developer</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Quidem nostrum velit, praesentium aut iusto natus accusantium 
+                  vero iure fugiat? 
+                </p>
+                <div className="c-about-me-icons">
+                  <span className="icon">
+                    <i className="icon-html5-alt"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-css3-alt"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-sass"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-javascript-alt"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-php"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-mysql-alt"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-shell"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-git"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-npm"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-reactjs"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-jquery"></i>
+                  </span>
+                  <span className="icon">
+                    <i className="icon-bootstrap"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="column is-half">
+            <div className="box">
+              <div className="content">
+                <h1>Graphics Design</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Quidem nostrum velit, praesentium aut iusto natus accusantium 
+                  vero iure fugiat? 
+                </p>
+                <div className="c-about-me-icons">
+                  <span class="icon">
+                    <img src={require("./../_assets/png/xd.png")} />
+                  </span>
+                  <span class="icon">
+                    <img src={require("./../_assets/png/photoshop.png")} />
+                  </span>
+                  <span class="icon">
+                    <img src={require("./../_assets/png/illustrator.png")} />
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
