@@ -1,5 +1,5 @@
 import React from 'react';
-import { Element } from 'react-scroll';
+import { Element, Link } from 'react-scroll';
 
 import PoseIcon from '../_pose-components/PoseIcon';
 
@@ -12,8 +12,12 @@ const Home = () => (
       >
         <div className="container has-text-centered">
           <div className="content">
-            <h1>Hi, I am AJ.</h1>
-            <p>I'm a front-end web developer with an eye for simplicity and functionality.</p>
+            <h1 className="c-text-color-black is-size-1-desktop">
+              Hi, I am <span className="c-text-underline">AJ</span>.
+            </h1>
+            <p className="c-text-color-black is-size-3-desktop">
+              I'm a <span className="c-text-underline">front-end web developer</span> with an eye for simplicity and functionality.
+            </p>
           </div>
         </div>
       </div>
@@ -25,12 +29,20 @@ const Home = () => (
         <div className="container">
           <div className="level is-mobile">
             <div className="level-item">
-              <PoseIcon
-                position="down"
-                icon="arrow-down"
-                color="red"
-                size="4"
-              />
+              <Link 
+                to="about-me"
+                spy={true}
+                smooth={true}
+                offset={-52}
+                duration={1000}
+              >
+                <PoseIcon
+                  position="down"
+                  icon="arrow-down"
+                  color="c-text-color-red"
+                  size="is-size-3-desktop"
+                />
+              </Link>
             </div>
           </div>
         </div>

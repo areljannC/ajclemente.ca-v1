@@ -6,6 +6,7 @@ import Home     from './_sections/Home';
 import Projects from './_sections/Projects';
 import AboutMe  from './_sections/AboutMe';
 
+import './_stylesheets/bulma-custom.css';
 import './_stylesheets/custom.css';
 class App extends Component {
   render() {
@@ -14,8 +15,8 @@ class App extends Component {
         <div>
           <Navbar   />
           <Home     />
-          <Projects />
           <AboutMe  />
+          <Projects />
         </div>
       </Router>
     );

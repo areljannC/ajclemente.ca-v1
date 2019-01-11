@@ -11,7 +11,7 @@ const Navbar = () => (
         <a className="navbar-item">
           {/* add a logo here */}
         </a>
-        <a className="navbar-burger burger" data-target="navbar-menu">
+        <a className="navbar-burger c-text-color-red" data-target="navbar-menu">
           <span></span>
           <span></span>
           <span></span>
@@ -20,8 +20,8 @@ const Navbar = () => (
       <div className="navbar-menu is-shadowless" id="navbar-menu">
         <div className="navbar-end">
           <Link 
-            activeClass=""
-            className="navbar-item"
+            activeClass="navbar-item-active"
+            className="navbar-item is-uppercase is-size-5-desktop is-size-6-tablet is-size-6-mobile c-text-color-white"
             to="home"
             spy={true}
             smooth={true}
@@ -29,30 +29,30 @@ const Navbar = () => (
             duration={1000}
           >Home</Link>
           <Link 
-            activeClass=""
-            className="navbar-item"
+            activeClass="navbar-item-active"
+            className="navbar-item is-uppercase is-size-5-desktop is-size-6-tablet is-size-6-mobile c-text-color-white"
             to="about-me"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-26}
             duration={1000}
           >About Me</Link>
           <Link 
-            activeClass=""
-            className="navbar-item"
+            activeClass="navbar-item-active"
+            className="navbar-item is-uppercase is-size-5-desktop is-size-6-tablet is-size-6-mobile c-text-color-white"
             to="projects"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-26}
             duration={1000}
           >Projects</Link>
           <Link 
-            activeClass=""
-            className="navbar-item"
+            activeClass="navbar-item-active"
+            className="navbar-item is-uppercase is-size-5-desktop is-size-6-tablet is-size-6-mobile c-text-color-white"
             to="contact"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-26}
             duration={1000}
           >Contact</Link>
         </div>

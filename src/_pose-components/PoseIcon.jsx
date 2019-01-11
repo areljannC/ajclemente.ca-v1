@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import posed from 'react-pose';
 
 const Icon = posed.div({
-  up:   { y: -3 },
+  up:   { y: -12 },
   down: { y: 1  },
   transition: {
     default: { ease: 'easeIn' }
@@ -39,7 +39,7 @@ export default class PoseArrowDown extends Component {
   render() {
     return(
       <Icon pose={this.state.position} >
-        <span className={`icon ${this.props.size}`}>
+        <span className={`icon ${this.props.size} ${this.props.color}`}>
           <i className={`fas fa-${this.props.icon}`}></i>
         </span>
       </Icon>

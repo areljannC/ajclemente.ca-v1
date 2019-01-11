@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=bulma-custom.css.map */
+.navbar, .navbar-menu {
+  background-color: #1D3557;
+}
+
+.navbar-item:hover {
+  background-color: #F1FAEE !important;
+  color: #1D3557 !important;
+  font-weight: bold;
+}
+
+.navbar-item-active {
+  background-color: #F1FAEE;
+  color: #E63946 !important;
+  font-weight: bold;
+}
+/*# sourceMappingURL=bulma-custom.css.map */

@@ -3,3 +3,19 @@ $color-white:      #F1FAEE;
 $color-red:        #E63946;
 $color-blue:       #457B9D;
 $color-light-blue: #A8DADC;
+
+.navbar, .navbar-menu {
+  background-color: $color-black;
+}
+
+.navbar-item:hover {
+  background-color: $color-white !important;
+  color: $color-black !important;
+  font-weight: bold; 
+}
+
+.navbar-item-active {
+  background-color: $color-white;
+  color: $color-red !important;
+  font-weight: bold; 
+}
