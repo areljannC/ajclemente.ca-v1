@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => (
   <nav className="navbar is-fixed-top">
@@ -18,18 +19,42 @@ const Navbar = () => (
       </div>
       <div className="navbar-menu is-shadowless" id="navbar-menu">
         <div className="navbar-end">
-          <a className="navbar-item">
-            Home
-          </a>
-          <a className="navbar-item">
-            Projects
-          </a>
-          <a className="navbar-item">
-            About Me
-          </a>
-          <a className="navbar-item">
-            Contact
-          </a>
+          <Link 
+            activeClass=""
+            className="navbar-item"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-52}
+            duration={1000}
+          >Home</Link>
+          <Link 
+            activeClass=""
+            className="navbar-item"
+            to="about-me"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}
+          >About Me</Link>
+          <Link 
+            activeClass=""
+            className="navbar-item"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}
+          >Projects</Link>
+          <Link 
+            activeClass=""
+            className="navbar-item"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}
+          >Contact</Link>
         </div>
       </div>
     </div>
