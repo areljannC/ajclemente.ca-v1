@@ -73,8 +73,15 @@ html, body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+#c-section-about-me .c-about-me-icons .icon {
+  margin: 0.2em;
 }
 
 #c-section-about-me .box {
