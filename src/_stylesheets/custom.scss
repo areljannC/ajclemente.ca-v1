@@ -1,8 +1,44 @@
+$color-black:      #1D3557;
+$color-white:      #F1FAEE;
+$color-red:        #E63946;
+$color-blue:       #457B9D;
+$color-light-blue: #A8DADC;
+$font-roboto: 'Roboto', sans-serif;
+
 .c-column {
   .card {
     margin-bottom: 1em;
   }
 }
+
+#c-section-about-me {
+  .image {
+    margin: 0 auto 1em auto;
+  }
+
+  .level {
+    justify-content: center;
+  }
+
+  .c-level-icon {
+    flex-grow: 0;
+    width: 2em;
+  }
+  
+  .c-level-info {
+    flex-grow: 0;
+    width: 12em;
+    justify-content: flex-start;
+  }
+
+  .c-about-me-icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 #c-section-projects {
   .c-card-grid {
     display: grid;
@@ -49,26 +85,5 @@
         }
       }
     }
-  }
-}
-
-#c-section-about-me {
-  .image {
-    margin: 0 auto 1em auto;
-  }
-
-  .level {
-    justify-content: center;
-  }
-
-  .c-level-icon {
-    flex-grow: 0;
-    width: 2em;
-  }
-  
-  .c-level-info {
-    flex-grow: 0;
-    width: 12em;
-    justify-content: flex-start;
   }
 }
