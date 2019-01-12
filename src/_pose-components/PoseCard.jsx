@@ -36,10 +36,10 @@ const PoseCard = ({
             </div>
             <div className="level">
               <div className="level-item">
-                <a>More Info</a>
+                <a className="c-text-color-blue">More Info</a>
               </div>
               <div className="level-item">
-                <a>View Live</a>
+                <a className="c-text-color-blue">View Live</a>
               </div>
             </div>
           </div>
