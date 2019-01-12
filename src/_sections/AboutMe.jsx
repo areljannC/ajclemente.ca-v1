@@ -102,7 +102,7 @@ const AboutMe = () => (
               playing as Link & Samus in SSBU.
               <br/><br/>
             </p>
-            <a className="button is-fullwidth">View resume</a>
+            <a className="button is-fullwidth c-button c-text-color-white">View resume</a>
           </div>
         </div>
         <div className="columns is-centered">
