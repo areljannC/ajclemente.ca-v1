@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import Navbar   from './_components/Navbar';
+import Footer   from './_components/Footer';
 import Home     from './_sections/Home';
 import AboutMe  from './_sections/AboutMe';
 import Projects from './_sections/Projects';
@@ -19,6 +20,7 @@ class App extends Component {
           <AboutMe  />
           <Projects />
           <Contact  />
+          <Footer   />
         </div>
       </Router>
     );
