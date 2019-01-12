@@ -38,6 +38,17 @@ html, body {
   border-bottom: 0.05em solid $color-red;
 }
 
+.c-button {
+  background-color: $color-blue;
+  border-color: transparent;
+}
+
+.c-button:hover {
+  background-color: rgba($color-blue, 0.9);
+  border-color: transparent;
+  color: $color-white;
+}
+
 .c-column {
   .card {
     margin-bottom: 1em;
@@ -86,6 +97,10 @@ html, body {
 }
 
 #c-section-projects {
+  .card {
+    background-color: $color-white;
+  }
+
   .c-card-grid {
     display: grid;
     grid-template-columns: 40% auto;
@@ -127,9 +142,31 @@ html, body {
         margin-bottom: 1em;
 
         .tag {
+          color: $color-white;
+          background-color: $color-black;
           margin: 0 0.5em;
         }
       }
+
+      .c-text-color-blue:hover {
+        color: $color-red;
+      }
     }
+  }
+}
+
+#c-section-contact {
+  margin-bottom: 12em;
+  
+  .c-input-error {
+    border-color: $color-red;
+  }
+
+  .c-text-color-red {
+    color: $color-red;
+  }
+
+  .section {
+    height: 70vh;
   }
 }

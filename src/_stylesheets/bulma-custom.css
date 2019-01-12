@@ -8,7 +8,7 @@
 
 .navbar-item:hover {
   background-color: #F1FAEE !important;
-  color: #1D3557 !important;
+  color: #E63946 !important;
   font-weight: bold;
 }
 
@@ -16,5 +16,20 @@
   background-color: #F1FAEE;
   color: #E63946 !important;
   font-weight: bold;
+}
+
+.section {
+  padding: 2em 1.5em 0 1.5em;
+}
+
+@media only screen and (min-width: 769px) {
+  .section {
+    margin-bottom: 6em;
+  }
+}
+
+.footer {
+  background-color: #1D3557;
+  padding: 2em 1.5em 2em 1.5em;
 }
 /*# sourceMappingURL=bulma-custom.css.map */

@@ -31,6 +31,17 @@ html, body {
   border-bottom: 0.05em solid #E63946;
 }
 
+.c-button {
+  background-color: #457B9D;
+  border-color: transparent;
+}
+
+.c-button:hover {
+  background-color: rgba(69, 123, 157, 0.9);
+  border-color: transparent;
+  color: #F1FAEE;
+}
+
 .c-column .card {
   margin-bottom: 1em;
 }
@@ -88,6 +99,10 @@ html, body {
   background-color: #F1FAEE;
 }
 
+#c-section-projects .card {
+  background-color: #F1FAEE;
+}
+
 #c-section-projects .c-card-grid {
   display: -ms-grid;
   display: grid;
@@ -142,6 +157,28 @@ html, body {
 }
 
 #c-section-projects .c-card-grid .c-card-grid-panel-right .c-tags .tag {
+  color: #F1FAEE;
+  background-color: #1D3557;
   margin: 0 0.5em;
+}
+
+#c-section-projects .c-card-grid .c-card-grid-panel-right .c-text-color-blue:hover {
+  color: #E63946;
+}
+
+#c-section-contact {
+  margin-bottom: 12em;
+}
+
+#c-section-contact .c-input-error {
+  border-color: #E63946;
+}
+
+#c-section-contact .c-text-color-red {
+  color: #E63946;
+}
+
+#c-section-contact .section {
+  height: 70vh;
 }
 /*# sourceMappingURL=custom.css.map */
