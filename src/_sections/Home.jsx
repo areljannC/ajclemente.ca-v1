@@ -1,6 +1,7 @@
 import React from 'react';
 import { Element, Link } from 'react-scroll';
 
+import PoseLogo from '../_pose-components/PoseLogo';
 import PoseIcon from '../_pose-components/PoseIcon';
 
 const Home = () => (
@@ -12,9 +13,7 @@ const Home = () => (
       >
         <div className="container has-text-centered">
           <div className="content">
-            <h1 className="c-text-color-black is-size-1-desktop">
-              Hi, I am <span className="c-text-underline">AJ</span>.
-            </h1>
+            <PoseLogo />
             <p className="c-text-color-black is-size-3-desktop">
               I'm a <span className="c-text-underline">front-end web developer</span> with an eye for simplicity and functionality.
             </p>
