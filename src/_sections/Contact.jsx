@@ -2,6 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import axios from 'axios';
 
 const ContactSchema = Yup.object().shape({
   name: Yup.string()
@@ -50,7 +51,14 @@ const Contact = () => (
               }}
               validationSchema={ContactSchema}
               onSubmit={(values, actions) => {
-                alert(JSON.stringify(values));
+                actions.setSubmitting(false);
+
+                axios.post("https://formcarry.com/s/ClcnXhLfciu", {
+                  name:    values.name,
+                  email:   values.email,
+                  message: values.message
+                });
+
                 actions.resetForm(values = {
                   name:    "",
                   email:   "",
@@ -59,6 +67,7 @@ const Contact = () => (
               }}
             >
               {({ errors, touched, isSubmitting }) => (
+                
                 <Form>
                   <div className="field" data-aos="fade-right">
                     <label className="label c-text-color-black">Name</label>
@@ -95,7 +104,7 @@ const Contact = () => (
                   </div>
                   <div className="control" data-aos="fade-left" data-aos-offset={-10}>
                     <button type="submit" disabled={isSubmitting} className="button is-fullwidth c-button c-text-color-white">
-                      Send
+                      Send 
                     </button>
                   </div>
                 </Form>
