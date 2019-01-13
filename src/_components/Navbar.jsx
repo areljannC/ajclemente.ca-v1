@@ -8,9 +8,9 @@ const Navbar = () => (
       data-aos-duration="1000"
     >
       <div className="navbar-brand">
-        <a className="navbar-item">
+        <div className="navbar-item">
           <img src={require("./../_assets/png/aj-logo-red.png")} />
-        </a>
+        </div>
         <a className="navbar-burger c-text-color-red" data-target="navbar-menu">
           <span></span>
           <span></span>
