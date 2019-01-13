@@ -102,7 +102,7 @@ const AboutMe = () => (
               playing as Link & Samus in SSBU.
               <br/><br/>
             </p>
-            <a href="https://drive.google.com/open?id=1VWo-UI74VGn_sFFrS-edFKHpBqg3H3tf" target="_blank"
+            <a href="https://drive.google.com/open?id=1lbp6QBG4OFMEdGIQZPGbsCY3fXK0uB_9" target="_blank"
               className="button is-fullwidth c-button c-text-color-white">View resume</a>
           </div>
         </div>
