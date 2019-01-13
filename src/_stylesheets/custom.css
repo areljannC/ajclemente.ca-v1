@@ -33,18 +33,26 @@ html, body {
 }
 
 .c-button {
-  background-color: #457B9D;
+  background-color: #1D3557;
   border-color: transparent;
 }
 
 .c-button:hover {
-  background-color: rgba(69, 123, 157, 0.9);
+  background-color: rgba(29, 53, 87, 0.9);
   border-color: transparent;
+  color: #F1FAEE;
+}
+
+.c-button:active, .c-button:link, .c-button:visited {
   color: #F1FAEE;
 }
 
 .c-column .card {
   margin-bottom: 1em;
+}
+
+#c-section-home .image {
+  margin: 0 auto;
 }
 
 #c-section-about-me .image {

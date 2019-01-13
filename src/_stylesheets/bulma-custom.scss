@@ -12,6 +12,12 @@ $color-light-blue: #A8DADC;
 color: $color-red;
 }
 
+.navbar-item {
+  img {
+    max-height: 2.28em;
+  }
+}
+
 .navbar-item:hover {
   background-color: $color-white !important;
   color: $color-red !important;
@@ -35,4 +41,9 @@ color: $color-red;
 .footer {
   background-color: $color-black;
   padding: 2em 1.5em 2em 1.5em;
+}
+
+.is-256x256 {
+  width:  256px;
+  height: 256px;
 }

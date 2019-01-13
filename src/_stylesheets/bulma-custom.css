@@ -6,6 +6,10 @@
   color: #E63946;
 }
 
+.navbar-item img {
+  max-height: 2.28em;
+}
+
 .navbar-item:hover {
   background-color: #F1FAEE !important;
   color: #E63946 !important;
@@ -31,5 +35,10 @@
 .footer {
   background-color: #1D3557;
   padding: 2em 1.5em 2em 1.5em;
+}
+
+.is-256x256 {
+  width: 256px;
+  height: 256px;
 }
 /*# sourceMappingURL=bulma-custom.css.map */
