@@ -3,48 +3,7 @@ import { Element } from 'react-scroll';
 
 import PoseCard from './../_pose-components/PoseCard';
 
-const projects = [
-  {
-    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
-    title: "Placeholder",
-    description: "Just a bunch of random text for the description",
-    tags: ["HTML", "CSS", "JavaScript"],
-    linkInfo: "#",
-    linkLive: "#"
-  },
-  {
-    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
-    title: "Placeholder",
-    description: "Just a bunch of random text for the description",
-    tags: ["HTML", "CSS", "JavaScript"],
-    linkInfo: "#",
-    linkLive: "#"
-  },
-  {
-    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
-    title: "Placeholder",
-    description: "Just a bunch of random text for the description",
-    tags: ["HTML", "CSS", "JavaScript"],
-    linkInfo: "#",
-    linkLive: "#"
-  },
-  {
-    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
-    title: "Placeholder",
-    description: "Just a bunch of random text for the description",
-    tags: ["HTML", "CSS", "JavaScript"],
-    linkInfo: "#",
-    linkLive: "#"
-  },
-  {
-    thumbnail: "https://udemy-images.udemy.com/course/750x422/381876_78ea.jpg",
-    title: "Placeholder",
-    description: "Just a bunch of random text for the description",
-    tags: ["HTML", "CSS", "JavaScript"],
-    linkInfo: "#",
-    linkLive: "#"
-  },
-];
+const projects = [];
 
 const Projects = () => (
   <Element name="projects" id="c-section-projects">
@@ -60,18 +19,28 @@ const Projects = () => (
         </div>
         <div className="columns is-centered is-multiline">
           {
-            projects.map((project) => (
-              <div className="column is-half c-column">
-                <PoseCard 
-                  scrollAnimation="fade-up"
-                  thumbnail={project.thumbnail}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.tags}
-                  linkInfo={project.linkInfo}
-                  linkLive={project.linkLive}
-                />
+            (projects.length < 1) ? (
+              <div className="section">
+                <div className="content has-text-centered">
+                  <p className="is-size-4 c-text-color-red">
+                    No projects yet!
+                  </p>
+                </div>
               </div>
+            ) : (
+              projects.map((project) => (
+                <div className="column is-half c-column">
+                  <PoseCard 
+                    scrollAnimation="fade-up"
+                    thumbnail={project.thumbnail}
+                    title={project.title}
+                    description={project.description}
+                    tags={project.tags}
+                    linkInfo={project.linkInfo}
+                    linkLive={project.linkLive}
+                  />
+                </div>
+              )
             ))
           }
         </div>
