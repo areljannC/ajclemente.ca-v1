@@ -9,7 +9,7 @@ const Navbar = () => (
     >
       <div className="navbar-brand">
         <a className="navbar-item">
-          {/* add a logo here */}
+          <img src={require("./../_assets/png/aj-logo-red.png")} />
         </a>
         <a className="navbar-burger c-text-color-red" data-target="navbar-menu">
           <span></span>
