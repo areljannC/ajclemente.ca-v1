@@ -1,6 +1,7 @@
 html, body {
   font-family: "Roboto", sans-serif !important;
   background-color: #F1FAEE;
+  overflow-x: hidden;
 }
 
 .c-text-color-white {
@@ -176,9 +177,5 @@ html, body {
 
 #c-section-contact .c-text-color-red {
   color: #E63946;
-}
-
-#c-section-contact .section {
-  height: 70vh;
 }
 /*# sourceMappingURL=custom.css.map */

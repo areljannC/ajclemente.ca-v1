@@ -8,6 +8,7 @@ $font-roboto: 'Roboto', sans-serif;
 html, body {
   font-family: $font-roboto !important;
   background-color: $color-white;
+  overflow-x: hidden;
 }
 
 .c-text-color-white {
@@ -164,9 +165,5 @@ html, body {
 
   .c-text-color-red {
     color: $color-red;
-  }
-
-  .section {
-    height: 70vh;
   }
 }
