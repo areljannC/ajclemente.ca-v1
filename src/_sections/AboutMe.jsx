@@ -84,7 +84,7 @@ const AboutMe = () => (
           <div className="column" data-aos="fade-left">
             <p className="is-size-5-desktop c-text-color-black">
              I'm AJ. <br/> 
-             I'm a front-end web developer based in the Greater Toronto Area (GTA)
+             I'm a front-end web developer based in the Greater Toronto Area (GTA).
             </p>
             <p className="is-size-5-desktop c-text-color-black-faded">
               <br/>
