@@ -29,7 +29,7 @@ const Contact = () => (
           </h1>
         </div>
         <div className="columns is-centered">
-          <div className="column is-two-fifths">
+          <div className="column is-two-fifths" data-aos="fade-right">
             <div className="content">
               <div className="section has-text-centered">
                 <p className="is-size-5 c-text-color-black">
