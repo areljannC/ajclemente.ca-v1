@@ -36,10 +36,10 @@ const PoseCard = ({
             </div>
             <div className="level">
               <div className="level-item">
-                <a className="c-text-color-blue">More Info</a>
+                <a href={linkInfo} target="_blank" className="c-text-color-blue">More Info</a>
               </div>
               <div className="level-item">
-                <a className="c-text-color-blue">View Live</a>
+                <a href={linkLive} target="_blank" className="c-text-color-blue">View Live</a>
               </div>
             </div>
           </div>
