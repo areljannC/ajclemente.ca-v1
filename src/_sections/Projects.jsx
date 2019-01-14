@@ -3,7 +3,32 @@ import { Element } from 'react-scroll';
 
 import PoseCard from './../_pose-components/PoseCard';
 
-const projects = [];
+const projects = [
+  {
+    "thumbnail": require("./../_assets/png/thumbnail-ajclemente.PNG"),
+    "title": "Web Portfolio",
+    "description": "My web portfolio made with React.js.",
+    "tags": ["React.js", "Formik", "Yup", "Axios", "Bulma"],
+    "linkInfo": "https://github.com/areljannC/ajclemente.ca",
+    "linkLive": "ajclemente.ca"
+  },
+  {
+    "thumbnail": require("./../_assets/png/thumbnail-masala-bites.PNG"),
+    "title": "Masala Bites Redesign",
+    "description": "A local restaurant's website modern redesign.",
+    "tags": ["jQuery", "Bulma", "SASS"], 
+    "linkInfo": "https://github.com/areljannC/MasalaBitesRedesign",
+    "linkLive": "https://areljannc.github.io/MasalaBitesRedesign/"
+  },
+  {
+    "thumbnail": require("./../_assets/png/thumbnail-quotes-generator.PNG"),
+    "title": "Quotes Generator",
+    "description": "A simple quotes generator for when you're speechless.",
+    "tags": ["Vanilla JavaScript", "CSS3", "SASS"],
+    "linkInfo": "https://github.com/areljannC/QuotesGenerator",
+    "linkLive": "https://areljannc.github.io/QuotesGenerator/"
+  }
+];
 
 const Projects = () => (
   <Element name="projects" id="c-section-projects">
