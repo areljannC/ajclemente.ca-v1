@@ -25,8 +25,8 @@ const PoseCard = ({
         <div className="c-card-grid-panel-right">
           <div className="card-content">
           <div className="content has-text-centered">
-            <h1>{title}</h1>
-            <p>{description}</p>
+            <h1 className="is-size-3-desktop is-size-4-tablet is-size-5-mobile c-text-color-black">{title}</h1>
+            <p className="is-size-6 c-text-color-black">{description}</p>
             <div className="c-tags">
               {
                 tags.map((tag) => (
@@ -36,10 +36,10 @@ const PoseCard = ({
             </div>
             <div className="level">
               <div className="level-item">
-                <a href={linkInfo} target="_blank" className="c-text-color-blue">More Info</a>
+                <a href={linkInfo} target="_blank" className="is-size-6 c-text-color-blue">More Info</a>
               </div>
               <div className="level-item">
-                <a href={linkLive} target="_blank" className="c-text-color-blue">View Live</a>
+                <a href={linkLive} target="_blank" className="is-size-6 c-text-color-blue">View Live</a>
               </div>
             </div>
           </div>
