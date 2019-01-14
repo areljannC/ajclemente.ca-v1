@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.5719ad45.chunk.css",
-  "main.js": "/static/js/main.172c52b5.chunk.js",
-  "main.js.map": "/static/js/main.172c52b5.chunk.js.map",
+  "main.css": "/static/css/main.bb9d304c.chunk.css",
+  "main.js": "/static/js/main.8be2bab4.chunk.js",
+  "main.js.map": "/static/js/main.8be2bab4.chunk.js.map",
   "static/js/1.d49b3936.chunk.js": "/static/js/1.d49b3936.chunk.js",
   "static/js/1.d49b3936.chunk.js.map": "/static/js/1.d49b3936.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -12,8 +12,8 @@
   "static/media/thumbnail-ajclemente.PNG": "/static/media/thumbnail-ajclemente.6fad4f04.PNG",
   "static/media/thumbnail-masala-bites.PNG": "/static/media/thumbnail-masala-bites.53960d3d.PNG",
   "static/media/thumbnail-quotes-generator.PNG": "/static/media/thumbnail-quotes-generator.c8bf175b.PNG",
-  "static/css/main.5719ad45.chunk.css.map": "/static/css/main.5719ad45.chunk.css.map",
+  "static/css/main.bb9d304c.chunk.css.map": "/static/css/main.bb9d304c.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.8148d5fc9cb5edbea5a19fea45b16594.js": "/precache-manifest.8148d5fc9cb5edbea5a19fea45b16594.js",
+  "precache-manifest.797f57f9d0f95ff1bb2434cb2e43e42a.js": "/precache-manifest.797f57f9d0f95ff1bb2434cb2e43e42a.js",
   "service-worker.js": "/service-worker.js"
 }
