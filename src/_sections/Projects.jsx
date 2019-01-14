@@ -54,7 +54,7 @@ const Projects = () => (
               </div>
             ) : (
               projects.map((project) => (
-                <div className="column is-half c-column">
+                <div className="column is-two-thirds c-column">
                   <PoseCard 
                     scrollAnimation="fade-up"
                     thumbnail={project.thumbnail}
