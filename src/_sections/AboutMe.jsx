@@ -17,7 +17,7 @@ const AboutMe = () => (
           <div className="column is-two-fifths" data-aos="fade-right">
             <div className="content">
               <figure class="image is-128x128">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
+                <img class="is-rounded" src={require('./../_assets/profile-pic-min.jpg')} />
               </figure>
               <div className="level is-mobile">
                 <div className="level-item c-level-icon">
