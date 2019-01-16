@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8be2bab4778daf2589da",
-    "url": "/static/css/main.bb9d304c.chunk.css"
+    "revision": "d59f198d0667ae82a899",
+    "url": "/static/css/main.7b36cf7e.chunk.css"
   },
   {
-    "revision": "8be2bab4778daf2589da",
-    "url": "/static/js/main.8be2bab4.chunk.js"
+    "revision": "d59f198d0667ae82a899",
+    "url": "/static/js/main.d59f198d.chunk.js"
   },
   {
-    "revision": "d49b39367ee1e07036e1",
-    "url": "/static/js/1.d49b3936.chunk.js"
+    "revision": "85ef556dc9bb3fdec641",
+    "url": "/static/js/1.85ef556d.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,8 +24,16 @@ self.__precacheManifest = [
     "url": "/static/media/aj-logo-black.63350934.png"
   },
   {
+    "revision": "ecf392454ae77112532ef6812e03f1f7",
+    "url": "/static/media/profile-pic-min.ecf39245.jpg"
+  },
+  {
     "revision": "c5df12fd434e9207b9d8e488f5d9a0e8",
     "url": "/static/media/illustrator.c5df12fd.png"
+  },
+  {
+    "revision": "2ece35fcfee8388b12c6cb364f82058d",
+    "url": "/static/media/thumbnail-toronto-waste-wizard.2ece35fc.PNG"
   },
   {
     "revision": "6fad4f04ddbb32650750a757f6878024",
@@ -40,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/thumbnail-quotes-generator.c8bf175b.PNG"
   },
   {
-    "revision": "cfad9ae1a93baac6a7f56dbc23f2864f",
+    "revision": "c41c8c32dcb896978659c6c79e2b79bb",
     "url": "/index.html"
   }
 ];
