@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d59f198d0667ae82a899",
+    "revision": "3b64d202b2fafe3451d0",
     "url": "/static/css/main.7b36cf7e.chunk.css"
   },
   {
-    "revision": "d59f198d0667ae82a899",
-    "url": "/static/js/main.d59f198d.chunk.js"
+    "revision": "3b64d202b2fafe3451d0",
+    "url": "/static/js/main.3b64d202.chunk.js"
   },
   {
     "revision": "85ef556dc9bb3fdec641",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/thumbnail-quotes-generator.c8bf175b.PNG"
   },
   {
-    "revision": "c41c8c32dcb896978659c6c79e2b79bb",
+    "revision": "5e621bb29b1dd4a0759acaea46ce8404",
     "url": "/index.html"
   }
 ];
