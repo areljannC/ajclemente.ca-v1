@@ -18,7 +18,7 @@ Developing this with all the technologies used above took roughly a week which m
 
 I would have to say that executing / coding this took only about 20% of that week. 
 
-The key lesson here is to... **READ, READ, READ THE DOCS**.
+The key lesson here is to **READ, READ, READ THE DOCS**.
 
 ## Design
 * **Adobe XD** - quick webpage design and mockups
