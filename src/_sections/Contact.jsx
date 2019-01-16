@@ -37,8 +37,24 @@ const Contact = () => (
                     Thanks for visiting my website!
                   </span> <br/><br/>
                   If you have any questions or you want to get in touch,
-                  feel free to give me a message anytime.
+                  feel free to give me a message anytime. <br/><br/>
                 </p>
+                <div className="level is-mobile">
+                  <div className="level-item">
+                    <a href="https://www.linkedin.com/in/aj-clemente/" target="_blank">
+                      <span className="icon is-size-4 c-text-color-black">
+                        <i className="fab fa-linkedin"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div className="level-item">
+                    <a href="https://github.com/areljannC">
+                      <span className="icon is-size-4 c-text-color-black" target="_blank">
+                        <i className="fab fa-github"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
