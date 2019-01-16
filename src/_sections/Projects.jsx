@@ -5,6 +5,14 @@ import PoseCard from './../_pose-components/PoseCard';
 
 const projects = [
   {
+    "thumbnail": require('./../_assets/png/thumbnail-toronto-waste-wizard.PNG'),
+    "title": "Toronto Waste Wizard",
+    "description": "My solution to Shopify's Web Engineer Intern coding challenge.",
+    "tags": ["React.js", "Axios", "SASS"],
+    "linkInfo": "https://github.com/areljannC/TorontoWasteWizard",
+    "linkLive": "https://areljannc.github.io/TorontoWasteWizard/"
+  },
+  {
     "thumbnail": require("./../_assets/png/thumbnail-ajclemente.PNG"),
     "title": "Web Portfolio",
     "description": "My web portfolio made with React.js.",
@@ -54,7 +62,7 @@ const Projects = () => (
               </div>
             ) : (
               projects.map((project) => (
-                <div className="column is-half c-column">
+                <div className="column is-two-thirds c-column">
                   <PoseCard 
                     scrollAnimation="fade-up"
                     thumbnail={project.thumbnail}
